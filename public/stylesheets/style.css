@@ -1,13 +1,20 @@
 @media (min-width: 980px) {
-    body {
-        padding-top: 60px;
-    }
     .linediv-l {
         border-right: 1px white solid;
     }
 
     .linediv-r {
         border-right: 1px white solid;
+    }
+}
+
+@media (max-width: 700px) {
+    .linediv-l {
+        border-bottom: 1px white solid;
+    }
+
+    .linediv-r {
+        border-top: 1px white solid;
     }
 }
 
@@ -29,9 +36,18 @@ body {
 
 .actions {
     background-color: #343434;
-    padding: 3% 0%;
     text-align: center;
-    margin: 1em;
+    margin: 2em auto 0;
+    padding: 3em 0.5em;
+}
+
+.actions h3, .actions p {
+    color: white;
+}
+
+p {
+    font-size: 18px;
+    line-height: 24px;
 }
 
 .progress {
@@ -46,12 +62,12 @@ body {
     padding: 0.5em;
 }
 
-.header .pure-menu li a:hover,
-.header .pure-menu li a:focus {
-    background: none;
-    border: none;
-    color: #aaa;
-}
+    .header .pure-menu li a:hover,
+    .header .pure-menu li a:focus {
+        background: none;
+        border: none;
+        color: #aaa;
+    }
 
 body .primary-button {
     background: #02a6eb;
