@@ -1,3 +1,15 @@
+@media (min-width: 980px) {
+    body {
+        padding-top: 60px;
+    }
+    .linediv-l {
+        border-right: 1px white solid;
+    }
+
+    .linediv-r {
+        border-right: 1px white solid;
+    }
+}
 
 
 * {
@@ -15,20 +27,31 @@ body {
     padding: 1em;
 }
 
+.actions {
+    background-color: #343434;
+    padding: 3% 0%;
+    text-align: center;
+    margin: 1em;
+}
+
+.progress {
+    margin-top: 1em;
+}
+
 .header {
     margin: 0 0;
 }
 
-    .header .pure-menu {
-        padding: 0.5em;
-    }
+.header .pure-menu {
+    padding: 0.5em;
+}
 
-        .header .pure-menu li a:hover,
-        .header .pure-menu li a:focus {
-            background: none;
-            border: none;
-            color: #aaa;
-        }
+.header .pure-menu li a:hover,
+.header .pure-menu li a:focus {
+    background: none;
+    border: none;
+    color: #aaa;
+}
 
 body .primary-button {
     background: #02a6eb;
@@ -39,6 +62,7 @@ body .primary-button {
     margin: 2em auto 0;
     padding: 3em 0.5em;
     background: #eee;
+    text-align: center;
 }
     .splash .splash-head {
         font-size: 300%;
