@@ -48,7 +48,7 @@ body {
     background-color: #343434;
     text-align: center;
     margin: 1em auto 0;
-    padding: 3em 0.5em;
+    padding: 2em 0.5em;
 }
 
 .actions h3, .actions p {
@@ -64,6 +64,9 @@ p {
     margin-top: 1em;
 }
 
+button {
+    margin-left: .5em;
+}
 .header {
     margin: 0 0;
 }
